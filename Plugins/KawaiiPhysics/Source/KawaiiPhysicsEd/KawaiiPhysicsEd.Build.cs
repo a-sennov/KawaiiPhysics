@@ -16,7 +16,7 @@ public class KawaiiPhysicsEd : ModuleRules
         {
             if (Version.MajorVersion == 5)
             {
-				PrivateDependencyModuleNames.AddRange(new string[] { "EditorFramework" });
+				PrivateDependencyModuleNames.AddRange(new string[] { "EditorFramework", "AnimationEditMode" });
 			}
         }
 

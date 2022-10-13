@@ -142,6 +142,11 @@ void FKawaiiPhysicsEditModeBase::ExitMode()
 	RuntimeAnimNode = nullptr;
 }
 
+void FKawaiiPhysicsEditModeBase::RegisterPoseWatchedNode(UAnimGraphNode_Base* InEditorNode, FAnimNode_Base* InRuntimeNode)
+{
+	// TODO
+}
+
 void FKawaiiPhysicsEditModeBase::Render(const FSceneView* View, FViewport* Viewport, FPrimitiveDrawInterface* PDI)
 {
 	if (AnimNode != nullptr)
